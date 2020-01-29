@@ -62,6 +62,7 @@ public class ListExercises{
 
         for(Integer i= 0; i < list.size() - 1; i++){
             if(list.get(i) >= list.get(i+1)){
+
                 return false;
             }
         }
